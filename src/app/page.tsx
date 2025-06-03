@@ -1,7 +1,5 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function page() {
   return (
-    <div className="text-8xl text-center text-red-500">Hello Next App</div>
-  );
+    <div>This is home page!</div>
+  )
 }
